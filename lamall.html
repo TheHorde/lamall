@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html id="ng-app" ng-app="lmbang">
+<head>
+	<title>辣妈商城_辣妈帮官方母婴商城_万千辣妈信赖的进口母婴特卖</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="keywords" content="辣妈商城，进口母婴用品商城，进口奶粉，进口纸尿裤，辣妈帮官方商城">
+	<meta name="description" content="辣妈商城，辣妈帮官方网上商城，国内最专业全球进口母婴用品特卖的商城，这里有进口奶粉、纸尿裤、辅食、 玩具、洗护用品等，为您提供宝宝用品一站式服务，正品保证，价格优惠，是千万辣妈的选择，我们用心，妈妈放心。">
+	<link rel="stylesheet" type="text/css" href="common/css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="">
+	<script src="common/js/angular/angular.min.js"></script>
+	<script src="common/js/angular/angular-ui-router.js"></script>
+	<script src="common/js/angular/angular-css.min.js"></script>
+</head>
+<body>
+    <div ui-view></div>
+	<footer>
+    	<div><a ui-sref="home" ui-sref-active="active">home</a></div>
+        <div><a ui-sref="mall" ui-sref-active="active">mall</a></div>
+        <div><a ui-sref="cart" ui-sref-active="active">cart</a></div>
+        <div><a ui-sref="mine" ui-sref-active="active">mine</a></div>
+    </footer>
+    <script src="lamall.js"></script>
+    <script src="pages/home/home.js"></script>
+    <script src="pages/mall/mall.js"></script>
+    <script src="pages/cart/cart.js"></script>
+    <script src="pages/mine/mine.js"></script>
+</body>
+</html>
